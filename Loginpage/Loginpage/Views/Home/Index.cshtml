@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Login</title>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <section>
+            <img src="Images/Pic2.jpeg" class="panel" />
+        </section>
+        <div class="sec2" imageurl="Images/pic2.jpg">
+            <div class="container">
+                <div class="social">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Pic2.jpg" />
+
+
+                </div>
+                <div class="content">
+                    <h2>Sign up</h2>
+                    <asp:TextBox ID="TextBox1" placeholder="Username" runat="server"></asp:TextBox><br />
+                    <asp:TextBox ID="TextBox2" placeholder="Password" runat="server"></asp:TextBox><br />
+                    <asp:Button ID="Submit" runat="server" Text="Submit" />
+
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
